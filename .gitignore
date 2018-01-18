@@ -11,7 +11,12 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
- 
+
+# yarn
+yarn.lock
+
+npm-debug.log.*
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -30,7 +35,7 @@ Obj/
 .vs/
 
 /wwwroot/dist/
-/Client/dist/
+/ClientApp/dist/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -182,6 +187,7 @@ BundleArtifacts/
 !*.[Cc]ache/
 
 # Others
+*.db
 ClientBin/
 ~$*
 *~
@@ -251,3 +257,9 @@ _Pvt_Extensions
 
 # VSCode files
 .vscode/chrome
+
+# Jest Code Coverage report
+coverage/
+
+.DS_Store
+package-lock.json
